@@ -2,22 +2,28 @@
 
 ### Install VSCODE (Windows)
 
+* Download VSCode from official site [VS-Code](https://code.visualstudio.com/download)
+
 ### Playwright Installation
 
-Pre-Reqquisites
+#### Pre-Requisites:
 
-Node should be installed. Playwright requires Node. js version 12 or above.
+The node should be installed. The playwright requires Node. js version 12 or above.
 
-Make a empty directory.
-
+* Make an empty directory.
+```
 npm init playwright@latest
+```
 
 ## Running Tests in headed browsers.
 
+```
 npx playwright test filename.spec.js --headed
+```
 
-To run a specific test.
-
-npx playwright test filename:linenumber --headed
+* To run a specific test using line number.
+```
+ npx playwright test filename:linenumber --headed
+```
 
   
